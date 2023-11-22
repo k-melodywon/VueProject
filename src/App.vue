@@ -1,0 +1,96 @@
+
+<template>
+    <div class="background">
+      <div class="news">
+        <Header />
+        <router-view/>
+      </div>
+    </div>
+    <footer class="footer">
+      Copyright 2023. Kim YeoWon all rights reserved.
+      <br />
+      연락처: 010-6577-4824
+    </footer>
+</template>
+
+<script>
+import Header from "./Comp/Header/HeaderComponent.vue";
+export default {
+   components: {
+    Header,
+  },
+ name:'App',
+};
+</script>
+
+<style scoped>
+App{
+  margin: 0px;
+}
+body{
+  margin: 0;
+}
+.footer {
+  background-color: #333; /* 배경색 설정 */
+  color: #fff; /* 글꼴 색상 설정 */
+  text-align: center; /* 텍스트 정렬 설정 */
+  padding: 20px; /* 상하좌우 여백 설정 */
+}
+.background {
+  background-image: url('./Comp/종이질감.JPG');
+  background-size: cover;
+  display: flex;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center
+}
+.right{
+  width: 55%;
+  float: right;
+}
+
+.news{
+  position: relative;
+  display: inline;
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  width: 85%;
+}
+@font-face {
+  font-family: 'OKGUNG';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKGUNG.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'KOTRA_BOLD-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.title{
+  font-family: 'KOTRA_BOLD-Bold';
+  text-decoration: none;
+  color: #000; 
+  font-size: 40px;
+  position: relative;
+  display: inline;
+}
+@font-face {
+  font-family: 'Chosunilbo_myungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.article_font{
+  font-family:'Chosunilbo_myungjo';
+  position: relative;
+  display: inline;
+  color: #000; 
+} 
+
+.c{
+  position: relative;
+}
+
+</style>

@@ -1,0 +1,37 @@
+<template>
+	<div>
+		<div class="profile_2"><img src="./피자.jpg" alt="피자 알바" style="width:50%; height:auto"  /></div>
+		<br />
+		<br />
+		<div class="article_font">
+			<a>가장 짧게 일한 곳이지만 많은 추억이 담긴 아르바이트다.</a><br />
+			<a>나 또한 강한 인상을 주어 해당 피자집의 공식 계정 웹툰에 출연했다.</a><br />
+			<a>악덕 사장님을 그동안 많이 만났는데 이곳에서 일하면서 좋은 사장님도 있다는 것을 깨달았다.</a><br />
+		</div>
+	</div>
+</template>
+  
+<script>
+export default {
+	name: 'CareerComponent3',
+};
+</script>
+  
+<style scoped>
+.profile_2 {
+  align-items: center;
+  justify-content: center;
+  /* 가로 가운데 정렬도 필요하면 추가 */
+  width: 100%;
+  /* 필요한 경우 가로 가운데 정렬을 위한 너비 설정 */
+  height: 100%;
+}
+
+
+.article_font {
+  position: relative;
+  display: inline;
+  font-family: 'KOTRA_BOLD-Bold';
+}
+</style>
+  
