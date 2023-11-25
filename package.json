@@ -2,10 +2,10 @@
   "name": "vue_project",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://k-melodywon.github.io/VueProject",
+  "homepage": "https://k-melodywon.github.io/VueProject",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
