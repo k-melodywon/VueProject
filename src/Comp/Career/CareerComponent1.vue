@@ -31,6 +31,7 @@ export default {
 
 
 .article_font {
+  font-family: 'KOTRA_BOLD-Bold';
   position: relative;
   display: inline;
   font-family: 'KOTRA_BOLD-Bold';

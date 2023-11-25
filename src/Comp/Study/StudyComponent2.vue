@@ -23,6 +23,11 @@ export default {
 </script>
   
 <style scoped>
-/* 스타일을 필요한 경우에 추가할 수 있습니다. */
+.article_font {
+  font-family: 'KOTRA_BOLD-Bold';
+  position: relative;
+  display: inline;
+  font-family: 'KOTRA_BOLD-Bold';
+}
 </style>
   

@@ -20,5 +20,10 @@ export default {
 </script>
 
 <style scoped>
-/* Study.css 파일에 있는 스타일을 여기에 추가합니다. */
+.article_font {
+  font-family: 'KOTRA_BOLD-Bold';
+  position: relative;
+  display: inline;
+  font-family: 'KOTRA_BOLD-Bold';
+}
 </style>

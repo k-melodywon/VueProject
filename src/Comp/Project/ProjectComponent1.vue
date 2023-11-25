@@ -29,7 +29,12 @@ export default {
 	height: 800px;
 }
 
-
+.article_font {
+  font-family: 'KOTRA_BOLD-Bold';
+  position: relative;
+  display: inline;
+  font-family: 'KOTRA_BOLD-Bold';
+}
 .article_border_project {
 	display: inline-block;
 	margin: 1%;

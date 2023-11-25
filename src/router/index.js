@@ -5,25 +5,25 @@ import ProjectCard from "@/Comp/Project/ProjectCard.vue";
 import CareerCard from "@/Comp/Career/CareerCard.vue";
 import StudyCard from "@/Comp/Study/StudyCard.vue";
 
-const routes = [    // 라우터 설정
+const routes = [
   {
-    path: "/",               // 라우터
+    path: "/",
     component: Main,
   },
   {
-    path: "/portfolio/intro",       // touter
+    path: "/portfolio/intro",
     component: IntroMain,
   },
   {
-    path: "/portfolio/career",       // touter
+    path: "/portfolio/career",
     component: CareerCard,
   },
   {
-    path: "/portfolio/project",       // touter
+    path: "/portfolio/project",
     component: ProjectCard,
   },
   {
-    path: "/portfolio/study",       // touter
+    path: "/portfolio/study",
     component: StudyCard,
   },
 
